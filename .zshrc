@@ -2,7 +2,7 @@
 export PATH=$HOME/bin:/usr/local/bin:$PATH
 
 # Path to your oh-my-zsh installation.
-export ZSH="/home/m0xw3ll/.oh-my-zsh"
+export ZSH="/home/<user>/.oh-my-zsh"
 
 # Set name of the theme to load --- if set to "random", it will
 # load a random theme each time oh-my-zsh is loaded, in which case,
@@ -68,7 +68,7 @@ ZSH_THEME="ravencloud"
 # Custom plugins may be added to ~/.oh-my-zsh/custom/plugins/
 # Example format: plugins=(rails git textmate ruby lighthouse)
 # Add wisely, as too many plugins slow down shell startup.
-plugins=(sudo npm docker git-prompt cp ssh-agent colored-man common-aliases)
+plugins=(sudo npm docker git-prompt cp common-aliases)
 
 
 source $ZSH/oh-my-zsh.sh
@@ -98,7 +98,3 @@ source $ZSH/oh-my-zsh.sh
 # Example aliases
 # alias zshconfig="mate ~/.zshrc"
 # alias ohmyzsh="mate ~/.oh-my-zsh"
-
-#THIS MUST BE AT THE END OF THE FILE FOR SDKMAN TO WORK!!!
-export SDKMAN_DIR="/home/m0xw3ll/.sdkman"
-[[ -s "/home/m0xw3ll/.sdkman/bin/sdkman-init.sh" ]] && source "/home/m0xw3ll/.sdkman/bin/sdkman-init.sh"
